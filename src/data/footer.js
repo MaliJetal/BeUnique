@@ -1,49 +1,49 @@
-import React from 'react'
-import { FaChevronDown } from 'react-icons/fa'
+import React from "react";
+import { FaChevronDown } from "react-icons/fa";
 
 const data = [
   {
     id: 1,
-    title: 'Products',
+    title: "Products",
     links: [
-      'Photo Editor',
-      'Collage Maker',
-      'Graphic Designer',
-      'Pricing',
-      'BeUnique Mobile',
-      'Visionn',
+      "Photo Editor",
+      "Collage Maker",
+      "Graphic Designer",
+      "Pricing",
+      "BeUnique Mobile",
+      "Visionn",
     ],
   },
   {
     id: 2,
-    title: 'Features',
+    title: "Features",
     links: [
-      'Photo Effects',
-      'Touch Up',
-      'Photo to Art',
-      'Text Editor',
-      'Essential Features',
-      'More',
+      "Photo Effects",
+      "Touch Up",
+      "Photo to Art",
+      "Text Editor",
+      "Essential Features",
+      "More",
     ],
   },
   {
     id: 3,
-    title: 'Resources',
+    title: "Resources",
     links: [
-      'Gettin Started',
-      'User Guides',
-      'FAQ',
-      'Tutorials',
+      "Gettin Started",
+      "User Guides",
+      "FAQ",
+      "Tutorials",
       "What's New",
-      'Case Studies',
-      'Explore',
+      "Case Studies",
+      "Explore",
     ],
   },
   {
     id: 4,
-    title: 'Company',
-    links: ['About', 'Values', 'Press', 'Careers', 'Contact'],
+    title: "Company",
+    links: ["About", "Values", "Press", "Careers", "Contact"],
   },
-]
+];
 
-export default data
+export default data;
