@@ -1,6 +1,3 @@
-import React from "react";
-import { FaChevronDown } from "react-icons/fa";
-
 const data = [
   {
     id: 1,
@@ -11,7 +8,7 @@ const data = [
       "Graphic Designer",
       "Pricing",
       "BeUnique Mobile",
-      "Visionn",
+      "Vision",
     ],
   },
   {
@@ -30,7 +27,7 @@ const data = [
     id: 3,
     title: "Resources",
     links: [
-      "Gettin Started",
+      "Getting Started",
       "User Guides",
       "FAQ",
       "Tutorials",

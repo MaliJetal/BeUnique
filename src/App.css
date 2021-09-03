@@ -1,1 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600&display=swap");
+
+#navbar {
+  grid-area: navbar;
+}
+
+#footer {
+  grid-area: footer;
+}
+
+/* .appContainer {
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-rows: 60px 300px;
+} */

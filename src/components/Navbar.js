@@ -4,7 +4,7 @@ import data from "../data/navbar";
 import logo from "../images/logo.svg";
 
 const Navbar = () => {
-  const [links, setLinks] = useState(data);
+  const [links] = useState(data);
 
   return (
     <>
@@ -18,7 +18,7 @@ const Navbar = () => {
               {links.map((l) => {
                 const { id, link } = l;
                 return (
-                  <li key={id} className="mx-3">
+                  <li key={id} className="mx-8">
                     {link}
                   </li>
                 );
@@ -26,7 +26,7 @@ const Navbar = () => {
             </ul>
           </div>
         </nav>
-        <div className="mx-3 md:hidden">
+        <div className="mx-8 md:hidden">
           <FaBars />
         </div>
       </header>
