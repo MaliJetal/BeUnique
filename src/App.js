@@ -5,6 +5,7 @@ import Creative from "./components/Creative";
 import Features from "./components/Features";
 import Grid from "./components/Grid";
 import "./App.css";
+import Editor from "./components/Editing";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Creative />
         <Features />
         <Grid />
+        <Editor />
         <Footer />
       </div>
     </div>

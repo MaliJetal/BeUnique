@@ -13,7 +13,7 @@ import data from "../data/footer";
 const Footer = () => {
   const [links] = useState(data);
   return (
-    <div className="Footer grid grid-row-1 pt-32">
+    <div className="Footer grid grid-row-1 pt-16 pb-12 bg-gray-100">
       <div className="FooterDetails">
         <footer className="p-12 sm:grid sm:grid-cols-2 lg:grid-cols-5 lg:w-1px lg:mx-auto">
           <div className="flex justify-center items-center mb-10 mr-10">
@@ -54,7 +54,7 @@ const Footer = () => {
         </footer>
       </div>
       <div className="FooterDown">
-        <footer className="flex  items-center justify-between inset-x-0 botom-0 px-12">
+        <footer className="sm:block lg:flex items-center justify-between inset-x-0 botom-0 px-12">
           <span className="flex items-center">
             Language :{" "}
             <select name="language" id="language" className="m-2">
