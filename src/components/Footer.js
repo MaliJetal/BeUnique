@@ -15,7 +15,7 @@ const Footer = () => {
   return (
     <div className="Footer grid grid-row-1 pt-32">
       <div className="FooterDetails">
-        <footer className="p-8 sm:grid sm:grid-cols-2 lg:grid-cols-5 lg:w-1px lg:mx-auto">
+        <footer className="p-12 sm:grid sm:grid-cols-2 lg:grid-cols-5 lg:w-1px lg:mx-auto">
           <div className="flex justify-center items-center mb-10 mr-10">
             <ul className="flex border-2 border-black-900 p-4">
               <li className="mx-2">
@@ -41,7 +41,7 @@ const Footer = () => {
           {links.map((footerLink) => {
             const { id, title, links } = footerLink;
             return (
-              <div key={id} className="mx-auto">
+              <div key={id} className="mx-auto px-12">
                 <h4 className="font-bold text-lg mb-4">{title}</h4>
                 <ul className="mb-2 text-sm text-gray-500 cursor-pointer hover:text-black">
                   {links.map((link) => {
@@ -54,7 +54,7 @@ const Footer = () => {
         </footer>
       </div>
       <div className="FooterDown">
-        <footer className="flex  items-center justify-between inset-x-0 botom-0">
+        <footer className="flex  items-center justify-between inset-x-0 botom-0 px-12">
           <span className="flex items-center">
             Language :{" "}
             <select name="language" id="language" className="m-2">

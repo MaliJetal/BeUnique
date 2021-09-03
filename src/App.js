@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Showcase from "./components/Showcase";
 import Creative from "./components/Creative";
+import Features from "./components/Features";
 import "./App.css";
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
         <Navbar />
         <Showcase />
         <Creative />
+        <Features />
         <Footer />
       </div>
     </div>
