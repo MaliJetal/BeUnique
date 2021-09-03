@@ -13,3 +13,24 @@
   grid-gap: 2rem;
   grid-template-rows: 60px 300px;
 } */
+
+.slider {
+  height: 400px;
+  animation: slide 10s infinite;
+  padding-bottom: 10px;
+}
+
+@keyframes slide {
+  25% {
+    background: url("./images/hero.jpg") no-repeat center/cover;
+  }
+  50% {
+    background: url("./images/hero-2.jpg") no-repeat center/cover;
+  }
+  75% {
+    background: url("./images/hero-3.jpg") no-repeat center/cover;
+  }
+  100% {
+    background: url("./images/hero-4.jpg") no-repeat center/cover;
+  }
+}
